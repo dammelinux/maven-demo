@@ -13,13 +13,5 @@ public class Demo {
 	    System.out.println("Right");
 	}
 	
-	@Test
-	public void TestFail() {
-		int a = 1;
-		int b = 2;
-	    assertTrue(a+b==4);
-	    
-	    System.out.println("Wrong");
-	}
 	
 }
